@@ -67,3 +67,14 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+#
+gatsby-browser.js
+gatsby-config.js
+gatsby-ssr.js
+package-lock.json
+package.json
+.firebase/
+.firebaserc
+.github/
+firebase.json
