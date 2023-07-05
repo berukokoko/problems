@@ -240,13 +240,15 @@ header {
 }
 
 footer {
-  padding: 30px 4% 10px;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
 }
+
+
 a {	
   text-decoration: none;
   color: #4b4b4b;
@@ -319,4 +321,26 @@ ul {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+	/* （スマホ用） */
+  .buttonRound {
+    padding: 20px 25px 20px 25px;
+}
+}
+
+
+
+
+.wrapper{
+  min-height: 100vh;
+}
+
+footer{
+  width: 100%;
+  bottom: 0; /*下に固定*/
 }

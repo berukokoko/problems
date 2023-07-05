@@ -6,6 +6,7 @@ const AboutPage = () => {
   return (
     <div>
       <Header />
+      <div class="wrapper">
       <div class="contens">
       <div class="contenscenter">
       <h1>財布無くした</h1>
@@ -32,8 +33,8 @@ const AboutPage = () => {
       
       </div>
      </div>
+     </div>
       <Footer />
-      <div>©  Site {new Date().getFullYear()}</div>
     </div>
   );
 };

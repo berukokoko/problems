@@ -7,10 +7,12 @@ const BlogPage = () => {
   return (
     <div>
       <Header />
+      <div class="wrapper">
       <div class="contens">
-      <h1>サイトの名前（仮）</h1>
+
 
       <div class="contenscenter">
+      <h1>サイトの名前（仮）</h1>
       <p>発達障害のお困りを解決するサイトです。</p>  
       <p>お困りの状況について無料で調べられます。</p>
 
@@ -33,9 +35,9 @@ const BlogPage = () => {
      </div>
 
 
+     </div>
       </div>
       <Footer />
-      <div>©  Site {new Date().getFullYear()}</div>
     </div>
   );
 };
